@@ -5,10 +5,6 @@ import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react'
 import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardsSkeleton } from '@/app/ui/skeletons'
 import CardWrapper from '@/app/ui/dashboard/cards'
-
-/**
- * * STOPPED AT THE START OF CHAPTER 8
- */
  
 export default async function Page() {
   return (
